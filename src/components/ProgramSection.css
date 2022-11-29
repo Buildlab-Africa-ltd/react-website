@@ -1,0 +1,157 @@
+.program {
+  padding: 34px;
+  background: #fff;
+}
+
+.program h2 {
+    color: #000A27;
+    font-size: 30px;
+    text-align: center;
+}
+
+.program h3 {
+  color: #000A27;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 14px;
+}
+
+.program p {
+    color: #000A27;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px;
+}
+
+.program_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px; 
+}
+
+.program_card {
+  width: 30%;
+  background: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-table;
+  margin-top: 30px;
+  margin-right: 68px; 
+}
+
+.program .btn {
+  margin-left: 70px;
+  margin-top: 10px;
+  font-size: small;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .program_box {
+    flex-direction: column;
+  }
+  .program_card {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .btn Button {
+    margin-left: 108px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 34px;
+    width: 50px;
+ }
+}
+
+@media screen and (max-width: 900px) { 
+  .program_card {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .btn {
+    margin-left: 108px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 34px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .program_box {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .program_card {
+    width: 100%;
+    margin-right: 10px;
+    display: inline-table;
+  }
+  .btn {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 34px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .program_box {
+    display: flex;
+    flex-direction: row;
+  }
+  .program_card {
+    margin-right: 10px;
+    display: inline-table;
+  }
+  .btn {
+    margin-left: 148px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 34px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .program_box {
+    display: flex;
+    flex-direction: row;
+  }
+  .program_card {
+    margin-right: 10px;
+    display: inline-table;
+  }
+  .btn {
+    margin-left: 18px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-bottom: 34px;
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .program_box {
+    display: flex;
+    flex-direction: row;
+  }
+  .program_card {
+    margin-right: 48px;
+    display: inline-table;
+    margin: 24px;
+  }
+}
+  
+
+  
+
+
+
+
+
